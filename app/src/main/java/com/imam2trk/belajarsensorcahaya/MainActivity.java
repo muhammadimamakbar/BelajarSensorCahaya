@@ -33,7 +33,7 @@ public class MainActivity extends AppCompatActivity {
                     Toast.LENGTH_SHORT).show();
         } else {
             float max = sensor.getMaximumRange();
-            pbCahaya.setMax(48000);
+            pbCahaya.setMax(480);
             txtNilaiMax.setText("Nilai Max: "+max);
             sm.registerListener(lightSensorEventListener,
                     sensor, SensorManager.SENSOR_DELAY_NORMAL);
